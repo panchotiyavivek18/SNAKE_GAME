@@ -79,6 +79,10 @@ public:
                 case 77: dir = RIGHT; break;
                 case 72: dir = UP; break;
                 case 80: dir = DOWN; break;
+                case 'a':dir = LEFT; break;
+                case 's': dir=DOWN;break;
+                case 'd': dir=RIGHT;break;
+                case 'w' : dir=UP;break;
                 case '0': gameOver = true; break;
             }
 
